@@ -1,9 +1,12 @@
 # include<stdio.h>
 int main(void)
-
 {
-	/* First ALX c-programming */
-	puts("Programming is like building a multilingual puzzle");
-
-	return (0);
+/*
+*Use the puts function to print the desired stri)
+*/
+puts("Programming is like building a multilingual puzzle");
+/*
+*return : nothing to return
+*/
+return (0);
 }
