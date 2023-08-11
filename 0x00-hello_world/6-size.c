@@ -8,6 +8,8 @@ int main(void)
 int a = sizeof(int);
 int b = sizeof(char);
 int c = sizeof(float);
-printf("the size of int ,char and float is %d,%d and %d \n", a, b, c);
+int d = sizeof(long int);
+int d = sizeof(long long int);
+printf("the size of int is  %d bytes \n", a);
 return (0);
 }
