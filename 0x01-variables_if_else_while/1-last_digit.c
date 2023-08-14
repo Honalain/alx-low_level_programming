@@ -16,14 +16,14 @@ last_digit = n % 10;
 
 if (last_digit > 5)
 {
-printf("Last digit of %d is %d and is grater than 5", n, last_digit);
+printf("Last digit of %i is %i and is grater than 5", n, last_digit);
 }
 else if (last_digit == 0)
 {
-printf("Last digit of %d is %d and is 0", n, last_digit);
+printf("Last digit of %i is %i and is 0", n, last_digit);
 }
 else if (last_digit < 6 && last_digit != 0)
-printf("Last number of %d is %d and less than 6 and not 0", n, last_digit);
+printf("Last number of %i is %i and less than 6 and not 0", n, last_digit);
 
 printf("\n");
 
