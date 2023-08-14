@@ -1,18 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - entry point of program
- * Description: printing lower case alphabt
- * Return: indicate termination of the program
- */
+* main - This is the main function of the program
+* Description: This source code prints the lowercase alphabet
+* Return: This indicates the termination status of the program
+*/
 int main(void)
 {
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+putchar(letter);
+}
 
-
-
-
-
-
-
-return (0)
-
+putchar('\n');
+return (0);
 }
