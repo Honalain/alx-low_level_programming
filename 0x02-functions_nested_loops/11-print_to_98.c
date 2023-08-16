@@ -36,7 +36,7 @@ else if (n > 98)
 for (i = n ; i >= 98 ; i--)
 {
 printf("%d", i);
-if (i != 89)
+if (i != 98)
 	printf(", ");
 
 }
