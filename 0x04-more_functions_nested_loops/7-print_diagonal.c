@@ -16,7 +16,6 @@ if (n <= 0)
 	{
 
 	for (l = 0 ; l <= i ; l++)
-
 		_putchar(' ');
 	_putchar ('\\');
 	_putchar('\n');
