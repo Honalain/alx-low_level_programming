@@ -20,7 +20,7 @@ int main(void)
 		else
 		printf("%d ", num);
 
-		if (num != 100)
+		if (num < 100)
 			printf(" ");
 
 	}
