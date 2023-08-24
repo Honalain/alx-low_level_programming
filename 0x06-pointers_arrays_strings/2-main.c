@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
- *     */
+ * main - check the code
+ * Return: Always 0.
+ */
+
 int main(void)
 {
 	char s1[98];
@@ -14,7 +14,7 @@ int main(void)
        	int i;
 for (i = 0; i < 98 - 1; i++)
 {
-s1[i] = '*';
+	s1[i] = '*';
 }
 s1[i] = '\0';
 printf("%s\n", s1);
