@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strstr - function that locate sustring 
+ * _strstr - function that locate sustring
  * @haystack: input pointer parameter 1
  * @needle: input pointer parameter 2
  * Return: Always 0 (Success)
@@ -18,7 +18,7 @@ while (*l == *p && *p != '\0')
 	p++;
 }
 
-		if (*p == '\0')
+if (*p == '\0')
 	return (haystack);
 }
 	return (0);
