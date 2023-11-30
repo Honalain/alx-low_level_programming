@@ -19,8 +19,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d, ", va_arg(arg, int));
 
-	if (separator == NULL && i < n - 1)
-		printf("%s", separator);
+	if (separator == NULL)
+		return (0);
 
 	}
 	va_end(arg);
