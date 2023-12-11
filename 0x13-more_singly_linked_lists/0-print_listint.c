@@ -11,8 +11,6 @@ size_t print_listint(const listint_t *h)
 {
 	size_t nodeCount = 0;
 
-	printf("Linked list contents:\n");
-
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
