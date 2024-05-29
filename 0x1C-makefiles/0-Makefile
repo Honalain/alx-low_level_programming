@@ -1,0 +1,6 @@
+#Default target
+all: main.c school.c m.h
+	touch school
+	#rule to build the executavle file
+school: main.c school.c m.h -o school
+	gcc main.c school.c -o school
